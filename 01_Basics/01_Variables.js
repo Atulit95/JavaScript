@@ -4,7 +4,7 @@ var accountPassword="34528"
 accountCity="Kuapur"
 let accountState
 
-// accountId=5  //Not Allowed
+// accountId=5  //Not Allowed becase already declared as const
 console.log(accountId);
 
 /*
