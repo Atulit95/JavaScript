@@ -4,7 +4,7 @@
 
 //-------Primitive Datatype---------
 
-let name="Atulit" //String
+let name="Knight" //String
 let age=18        //number
 let loggedIn=false //boolean
 
