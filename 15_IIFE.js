@@ -11,7 +11,7 @@ function one(){
 (function one(){
     //named IIFE because funtion has name
     console.log("DB CONNECTED");
-})(); // semicolon ';' is neccessary to stop invoked function else another IIFE will not be invoked and will display error
+})(); // semicolon ';' is neccessary to stop invoked function else another IIFE will not be invoked and will display error.
 
 ((name) => {
     //unnamed IIFE because funtion does not have name. we can also pass parameter as shown
