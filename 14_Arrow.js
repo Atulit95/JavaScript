@@ -11,7 +11,7 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-console.log(this) //this provides current context of the system if we run it on browser it will return Window object rather than empty object
+console.log(this) //this provides current context of the system if we run it on browser it will return Window object rather than empty object.
 
 function testThis(){
     let username = "hitesh"
