@@ -6,26 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Document</h1>
+    <h1>Document2</h1>
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
 <script>
-    // setTimeout(function(){
-    //     console.log("printed after 2s");
-    // },2000)
+//   const sayDate = function(str){
+//     console.log(str,Date.now())
+//   }
+//   const intervalId = setInterval(sayDate,1000,"hello")
 
-    const sayFunc = function(){
-        // console.log("PRinted after 2s");
-    }
-    const sayFunc2 = function(){
-        document.querySelector('h1').innerHTML = "Changed after 2s"
-    }
-    
-    const timeOut1 =setTimeout(sayFunc2,2000)
-    document.querySelector('#stop').addEventListener('click',function () {
-        clearTimeout(timeOut1)
-        console.log('Stopped')
-    })
-    
+//   clearInterval(intervalId)
+
+  const start = document.querySelector("#start").addEventListener('click', function (){
+    const intervalId = setInterval(function (){
+        console.log("setInterval Executed");
+    },2000)
+    const stop = document.querySelector("#stop").addEventListener('click', function (){
+    clearInterval(intervalId)
+  })
+  })
+  
 </script>
 </html>
