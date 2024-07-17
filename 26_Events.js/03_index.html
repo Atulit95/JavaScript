@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Document</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout(function(){
+    //     console.log("printed after 2s");
+    // },2000)
+
+    const sayFunc = function(){
+        // console.log("PRinted after 2s");
+    }
+    const sayFunc2 = function(){
+        document.querySelector('h1').innerHTML = "Changed after 2s"
+    }
+    
+    const timeOut1 =setTimeout(sayFunc2,2000)
+    document.querySelector('#stop').addEventListener('click',function () {
+        clearTimeout(timeOut1)
+        console.log('Stopped')
+    })
+    
+</script>
+</html>
