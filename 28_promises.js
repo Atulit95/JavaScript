@@ -89,7 +89,7 @@ consumePromiseFive()
 // }
 
 //getAllUsers()
-
+// THis get evaluated first beacuse fetch() uses High priority Queue or Micro Task Queue
 fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
     return response.json()
