@@ -104,8 +104,8 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course //another way to extract information from object.here 'instructor' work as alias or we can now directly use 'courseInstructor' rather than course.courseInstructor
-
+const {courseInstructor: instructor} = course //another way to extract information from object.here 'instructor' work as alias or we can now directly use 'courseInstructor' rather than course.courseInstructor 
+// Above method is called object destructuring
 // console.log(courseInstructor);
 console.log(instructor);
 

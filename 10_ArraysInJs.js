@@ -47,7 +47,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros] // spreadinf of arrays(recommended)
+const all_new_heros = [...marvel_heros, ...dc_heros] // spreading of arrays(recommended)
 
 // console.log(all_new_heros);
 
