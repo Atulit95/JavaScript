@@ -52,7 +52,8 @@ promiseFour
 })
 .catch((error)=>{
     console.log(error);
-}).finally(()=>{console.log("Error Resolved");})
+})
+.finally(()=>{console.log("Error Resolved");})
 
 const promiseFive = new Promise((resolve,reject)=>{
     setTimeout(()=>{
